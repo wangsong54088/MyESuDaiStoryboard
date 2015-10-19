@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  AttendanceApp
+//
+//  Created by zenith on 15/4/27.
+//  Copyright (c) 2015年 Wang. All rights reserved.
+//
+
+#ifndef AttendanceApp_PrefixHeader_pch
+#define AttendanceApp_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+#ifdef __OBJC__
+#define deviceWith ([UIScreen mainScreen].bounds.size.width)
+#define deviceHeight ([UIScreen mainScreen].bounds.size.height)
+
+
+#define ip (@"http://192.168.16.100:5678/ywxt/")
+
+#import   <UIKit/UIKit.h>
+#import   <Foundation/Foundation.h>
+#import   <SystemConfiguration/SystemConfiguration.h>
+#import   <MobileCoreServices/MobileCoreServices.h>
+
+#endif
