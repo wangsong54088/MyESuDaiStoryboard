@@ -19,6 +19,9 @@
     self.nanvView.hidden=NO;
     self.titleLabel.text=@"主页面";
     self.backButton.hidden=NO;
+    
+    
+    //hfhdfjdjfdfjdhfdjfhfdjfdh
 }
 
 - (void)didReceiveMemoryWarning {
